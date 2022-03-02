@@ -1,0 +1,28 @@
+id: tabbedContainer1
+type: widget
+subtype: TabbedContainerWidget
+resourceName: null
+template:
+  ordered:
+    - heightType: auto
+    - spinWhenChildrenAreFetching: true
+    - unmountInactiveTabs: false
+    - style:
+        ordered:
+          - border-radius: 20px
+          - border-color: '#3c92dc24'
+    - tabNames: '[''Home'',"About",''Blog'']'
+    - selectedTabIndex: 0
+    - selectedTab: '"0"'
+    - showTabBar: false
+    - disableAnimation: true
+    - overflowType: hidden
+    - disabled: ''
+style:
+  ordered: []
+position2:
+  position2:
+    col: 2
+    height: 8
+    width: 10
+createdAt: 2022-02-15T01:17:16.685Z
