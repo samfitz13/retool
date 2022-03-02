@@ -1,0 +1,36 @@
+id: image1
+type: widget
+subtype: ImageWidget2
+resourceName: null
+template:
+  ordered:
+    - heightType: auto
+    - horizontalAlign: center
+    - srcWidth: null
+    - clickable: false
+    - src: ''
+    - hidden: false
+    - srcHeight: null
+    - showInEditor: false
+    - tooltipText: ''
+    - fit: cover
+    - style:
+        ordered:
+          - borderRadius: |
+              20
+    - aspectRatio: null
+    - storageBlobId: ''
+    - altText: ''
+    - dbBlobId: cd714f5e-a2b1-4db0-b3ca-b2d9026160f9
+    - events:
+        ordered: []
+    - srcType: dbBlobId
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    row: 3
+    height: 3
+    width: 2
+createdAt: 2022-02-15T01:53:01.122Z

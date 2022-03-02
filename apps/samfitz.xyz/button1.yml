@@ -1,0 +1,45 @@
+id: button1
+type: widget
+subtype: ButtonWidget2
+resourceName: null
+template:
+  ordered:
+    - horizontalAlign: stretch
+    - clickable: false
+    - iconAfter: ''
+    - submitTargetId: null
+    - hidden: false
+    - text: Home
+    - showInEditor: false
+    - tooltipText: ''
+    - style:
+        ordered:
+          - border: >-
+              {{ tabbedContainer1.selectedTabIndex == 0 ? "#262626" : "#f5f5f5"
+              }}
+    - styleVariant: outline
+    - submit: false
+    - iconBefore: ''
+    - events:
+        - ordered:
+            - event: click
+            - type: widget
+            - method: selectTab
+            - pluginId: tabbedContainer1
+            - targetId: null
+            - params:
+                ordered:
+                  - selectedTab: '0'
+            - waitType: debounce
+            - waitMs: '0'
+    - loading: false
+    - loaderPosition: auto
+    - disabled: false
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    height: 1.0000000000000002
+    width: 2
+createdAt: 2022-02-15T01:15:39.268Z

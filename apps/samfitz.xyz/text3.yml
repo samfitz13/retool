@@ -1,0 +1,35 @@
+id: text3
+type: widget
+subtype: TextWidget2
+resourceName: null
+template:
+  ordered:
+    - heightType: auto
+    - horizontalAlign: left
+    - hidden: false
+    - imageWidth: fit
+    - showInEditor: false
+    - verticalAlign: center
+    - tooltipText: ''
+    - value: |-
+        2015-2019: Iowa State University B.S. Economics
+
+        2019-2020: Granular.ag
+
+        2020-2021: salesforce.com
+
+        2021+: retool.com
+
+        @therealsamfitz
+    - disableMarkdown: false
+    - overflowType: scroll
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: tabbedContainer1
+    height: 0.6
+    width: 12
+    tabNum: 1
+createdAt: 2022-02-15T01:45:35.344Z
