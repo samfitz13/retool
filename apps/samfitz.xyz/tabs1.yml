@@ -1,0 +1,78 @@
+id: tabs1
+type: widget
+subtype: TabsWidget2
+resourceName: null
+template:
+  ordered:
+    - _disabledByIndex:
+        - ''
+        - ''
+        - ''
+    - _values:
+        - '1'
+        - |
+          Posts
+        - Source
+    - values:
+        array: []
+    - alignment: justify
+    - hidden: false
+    - data:
+        array: []
+    - targetContainerId: null
+    - selectedItem: null
+    - showInEditor: false
+    - navigateContainer: false
+    - value: '{{ null }}'
+    - hiddenByIndex:
+        array: []
+    - _hiddenByIndex:
+        - ''
+        - ''
+        - ''
+    - _hasMigratedNestedItems: true
+    - itemMode: static
+    - selectedIndex: null
+    - _tooltipByIndex:
+        - ''
+        - ''
+        - ''
+    - tooltipByIndex:
+        array: []
+    - selectedLabel: ''
+    - events:
+        - ordered:
+            - event: change
+            - type: widget
+            - method: selectTab
+            - pluginId: tabbedContainer1
+            - targetId: null
+            - params:
+                ordered:
+                  - selectedTab: '{{self.value}}'
+            - waitType: debounce
+            - waitMs: '0'
+    - _ids:
+        - '28e75'
+        - b8479
+        - 6f1c1
+    - disabled: false
+    - linePosition: bottom
+    - _labels:
+        - Works
+        - ''
+        - ''
+    - disabledByIndex:
+        array: []
+    - maintainSpaceWhenHidden: false
+    - labels:
+        array: []
+style:
+  ordered: []
+position2:
+  position2:
+    subcontainer: header
+    col: 2
+    height: 0.8
+    width: 8
+createdAt: 2022-03-03T19:39:24.759Z

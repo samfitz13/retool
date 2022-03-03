@@ -1,4 +1,4 @@
-id: text6
+id: containerTitle1
 type: widget
 subtype: TextWidget2
 resourceName: null
@@ -11,7 +11,7 @@ template:
     - showInEditor: false
     - verticalAlign: center
     - tooltipText: ''
-    - value: '{{query1.data[i].body}}'
+    - value: '### Samuel Fitzgerald'
     - disableMarkdown: false
     - overflowType: scroll
     - maintainSpaceWhenHidden: false
@@ -19,8 +19,7 @@ style:
   ordered: []
 position2:
   position2:
-    container: listView1
-    row: 0.6000000000000001
+    container: tabbedContainer1
     height: 0.6
-    width: 12
-createdAt: 2022-02-15T02:37:28.411Z
+    width: 10
+createdAt: 2022-03-03T19:41:25.463Z

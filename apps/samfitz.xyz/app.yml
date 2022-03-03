@@ -6,4 +6,7 @@ appTemplate:
   customDocumentTitle: samfitz.xyz
   rootScreen: null
   customDocumentTitleEnabled: true
+  preloadedAppJSLinks:
+    array:
+      - https://cdn.skypack.dev/three@0.138.3
   version: 2.83.28

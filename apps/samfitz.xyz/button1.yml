@@ -9,17 +9,12 @@ template:
     - iconAfter: ''
     - submitTargetId: null
     - hidden: false
-    - text: Home
+    - text: ''
     - showInEditor: false
     - tooltipText: ''
-    - style:
-        ordered:
-          - border: >-
-              {{ tabbedContainer1.selectedTabIndex == 0 ? "#262626" : "#f5f5f5"
-              }}
-    - styleVariant: outline
+    - styleVariant: solid
     - submit: false
-    - iconBefore: ''
+    - iconBefore: home
     - events:
         - ordered:
             - event: click
@@ -32,6 +27,16 @@ template:
                   - selectedTab: '0'
             - waitType: debounce
             - waitMs: '0'
+        - ordered:
+            - event: click
+            - type: widget
+            - method: clearValue
+            - pluginId: tabs1
+            - targetId: null
+            - params:
+                ordered: []
+            - waitType: debounce
+            - waitMs: '0'
     - loading: false
     - loaderPosition: auto
     - disabled: false
@@ -40,6 +45,7 @@ style:
   ordered: []
 position2:
   position2:
-    height: 1.0000000000000002
+    subcontainer: header
+    height: 0.8
     width: 2
-createdAt: 2022-02-15T01:15:39.268Z
+createdAt: 2022-03-03T21:45:40.734Z
