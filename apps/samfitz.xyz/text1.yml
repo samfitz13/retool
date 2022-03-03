@@ -5,13 +5,13 @@ resourceName: null
 template:
   ordered:
     - heightType: auto
-    - horizontalAlign: center
+    - horizontalAlign: left
     - hidden: false
     - imageWidth: fit
     - showInEditor: false
     - verticalAlign: center
     - tooltipText: ''
-    - value: <h3>samfitz.xyz</h3>
+    - value: Software Dude - Sales Eng - Burrito Eater
     - disableMarkdown: false
     - overflowType: scroll
     - maintainSpaceWhenHidden: false
@@ -19,7 +19,8 @@ style:
   ordered: []
 position2:
   position2:
-    subcontainer: header
+    container: tabbedContainer1
+    row: 0.6
     height: 0.6
-    width: 12
-createdAt: 2022-02-15T01:11:33.097Z
+    width: 10
+createdAt: 2022-03-03T21:15:16.944Z

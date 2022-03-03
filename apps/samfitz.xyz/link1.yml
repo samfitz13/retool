@@ -1,0 +1,41 @@
+id: link1
+type: widget
+subtype: LinkWidget
+resourceName: null
+template:
+  ordered:
+    - horizontalAlign: left
+    - clickable: false
+    - iconAfter: ''
+    - hidden: false
+    - text: '@samfitz13'
+    - showUnderline: hover
+    - showInEditor: false
+    - tooltipText: ''
+    - allowWrap: false
+    - iconBefore: github
+    - events:
+        - ordered:
+            - event: click
+            - type: util
+            - method: openUrl
+            - pluginId: ''
+            - targetId: null
+            - params:
+                ordered:
+                  - url: https://github.com/samfitz13
+            - waitType: debounce
+            - waitMs: '0'
+    - loading: false
+    - loaderPosition: auto
+    - disabled: false
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: tabbedContainer1
+    row: 7.8
+    height: 0.6
+    width: 3
+createdAt: 2022-03-03T21:40:50.086Z

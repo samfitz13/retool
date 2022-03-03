@@ -11,7 +11,8 @@ template:
     - showInEditor: false
     - verticalAlign: center
     - tooltipText: ''
-    - value: '#### {{query1.data[i].title}}'
+    - value: |
+        #### On the web
     - disableMarkdown: false
     - overflowType: scroll
     - maintainSpaceWhenHidden: false
@@ -19,7 +20,8 @@ style:
   ordered: []
 position2:
   position2:
-    container: listView1
+    container: tabbedContainer1
+    row: 7.2
     height: 0.6
     width: 3
-createdAt: 2022-02-15T02:09:40.731Z
+createdAt: 2022-03-03T21:39:58.817Z

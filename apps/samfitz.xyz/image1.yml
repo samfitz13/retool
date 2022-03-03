@@ -8,29 +8,30 @@ template:
     - horizontalAlign: center
     - srcWidth: null
     - clickable: false
-    - src: ''
+    - src: >-
+        https://media-exp1.licdn.com/dms/image/C4E03AQHrkKHeR0l53A/profile-displayphoto-shrink_800_800/0/1577119319174?e=1651708800&v=beta&t=ubAXL8KSubu7QZxG0Ye7mnLh4hbn40uS-4fIjpoIQ-8
     - hidden: false
     - srcHeight: null
     - showInEditor: false
     - tooltipText: ''
-    - fit: cover
+    - fit: contain
     - style:
         ordered:
-          - borderRadius: |
-              20
-    - aspectRatio: null
+          - borderRadius: 50%
+    - aspectRatio: 1
     - storageBlobId: ''
     - altText: ''
-    - dbBlobId: cd714f5e-a2b1-4db0-b3ca-b2d9026160f9
+    - dbBlobId: ''
     - events:
         ordered: []
-    - srcType: dbBlobId
+    - srcType: src
     - maintainSpaceWhenHidden: false
 style:
   ordered: []
 position2:
   position2:
-    row: 3
-    height: 3
+    container: tabbedContainer1
+    col: 10
+    height: 1.6
     width: 2
-createdAt: 2022-02-15T01:53:01.122Z
+createdAt: 2022-03-03T19:41:59.669Z
