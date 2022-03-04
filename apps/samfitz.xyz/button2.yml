@@ -1,4 +1,4 @@
-id: button1
+id: button2
 type: widget
 subtype: ButtonWidget2
 resourceName: null
@@ -9,32 +9,25 @@ template:
     - iconAfter: ''
     - submitTargetId: null
     - hidden: false
-    - text: Button
+    - text: Retool Wordle Solver
     - showInEditor: false
     - tooltipText: ''
+    - style:
+        ordered: []
     - styleVariant: solid
     - submit: false
     - iconBefore: ''
     - events:
         - ordered:
             - event: click
-            - type: widget
-            - method: selectTab
-            - pluginId: tabbedContainer1
+            - type: util
+            - method: openUrl
+            - pluginId: ''
             - targetId: null
             - params:
                 ordered:
-                  - selectedTab: '0'
-            - waitType: debounce
-            - waitMs: '0'
-        - ordered:
-            - event: click
-            - type: widget
-            - method: clearValue
-            - pluginId: tabs1
-            - targetId: null
-            - params:
-                ordered: []
+                  - url: >-
+                      https://tools.samfitz.me/embedded/public/b144d0ab-a707-42c3-baca-c7df9d3ec4ed
             - waitType: debounce
             - waitMs: '0'
     - loading: false
@@ -45,7 +38,9 @@ style:
   ordered: []
 position2:
   position2:
-    subcontainer: header
-    height: 0.8
-    width: 2
-createdAt: 2022-03-03T21:45:40.734Z
+    container: tabbedContainer1
+    row: 0.1999999999999984
+    height: 1
+    width: 6
+    tabNum: 1
+createdAt: 2022-03-04T17:41:47.160Z
