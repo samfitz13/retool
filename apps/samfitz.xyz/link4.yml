@@ -1,4 +1,4 @@
-id: link3
+id: link4
 type: widget
 subtype: LinkWidget
 resourceName: null
@@ -8,12 +8,12 @@ template:
     - clickable: false
     - iconAfter: ''
     - hidden: false
-    - text: '@retoolsam'
+    - text: '@samfitz13'
     - showUnderline: hover
     - showInEditor: false
     - tooltipText: ''
     - allowWrap: false
-    - iconBefore: bell
+    - iconBefore: github
     - events:
         - ordered:
             - event: click
@@ -23,7 +23,7 @@ template:
             - targetId: null
             - params:
                 ordered:
-                  - url: https://twitter.com/retoolsam
+                  - url: https://github.com/samfitz13
             - waitType: debounce
             - waitMs: '0'
     - loading: false
@@ -34,9 +34,14 @@ style:
   ordered: []
 position2:
   position2:
-    container: tabbedContainer1
-    row: 7.800000000000002
-    col: 3
+    container: tabbedContainer2
+    row: 13
     height: 0.6
     width: 3
-createdAt: 2022-03-03T21:41:58.565Z
+mobilePosition2:
+  position2:
+    container: tabbedContainer2
+    row: 8.199999999999998
+    height: 0.6
+    width: 4
+createdAt: 2022-03-04T15:37:10.036Z

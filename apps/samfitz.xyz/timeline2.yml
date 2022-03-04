@@ -1,0 +1,24 @@
+id: timeline2
+type: widget
+subtype: TimelineWidget
+resourceName: null
+template:
+  ordered:
+    - items: >-
+        ["Birth - Mar 1997", "Iowa State University - B.S. Managerial Economics
+        - 2019", "Granular - 2019", " Salesforce 2020", "Retool 2021+"]
+    - pending: ''
+    - timestamps: '["1997-03-13", "2019-5-4", "2020-06-28", "2020-06-28","2020-06-28"]'
+    - renderAsHtml: false
+    - isGrouped: false
+    - sortedDesc: false
+    - groupBy: none
+style:
+  ordered: []
+mobilePosition2:
+  position2:
+    container: tabbedContainer2
+    row: 1.7999999999999998
+    height: 5.199999999999999
+    width: 12
+createdAt: 2022-03-04T15:37:09.900Z

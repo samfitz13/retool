@@ -1,19 +1,22 @@
-id: link3
+id: link6
 type: widget
 subtype: LinkWidget
 resourceName: null
 template:
   ordered:
-    - horizontalAlign: left
+    - horizontalAlign: center
     - clickable: false
     - iconAfter: ''
     - hidden: false
-    - text: '@retoolsam'
+    - text: Retool Wordle Solver
     - showUnderline: hover
     - showInEditor: false
     - tooltipText: ''
+    - style:
+        ordered:
+          - text: '#262626'
     - allowWrap: false
-    - iconBefore: bell
+    - iconBefore: ''
     - events:
         - ordered:
             - event: click
@@ -23,7 +26,8 @@ template:
             - targetId: null
             - params:
                 ordered:
-                  - url: https://twitter.com/retoolsam
+                  - url: >-
+                      https://tools.samfitz.me/embedded/public/b144d0ab-a707-42c3-baca-c7df9d3ec4ed
             - waitType: debounce
             - waitMs: '0'
     - loading: false
@@ -32,11 +36,11 @@ template:
     - maintainSpaceWhenHidden: false
 style:
   ordered: []
-position2:
+mobilePosition2:
   position2:
-    container: tabbedContainer1
-    row: 7.800000000000002
-    col: 3
+    container: tabbedContainer2
+    row: 0.20000000000000018
     height: 0.6
-    width: 3
-createdAt: 2022-03-03T21:41:58.565Z
+    width: 6
+    tabNum: 1
+createdAt: 2022-03-04T17:40:17.878Z
