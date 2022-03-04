@@ -9,12 +9,12 @@ template:
     - iconAfter: ''
     - submitTargetId: null
     - hidden: false
-    - text: ''
+    - text: Button
     - showInEditor: false
     - tooltipText: ''
     - styleVariant: solid
     - submit: false
-    - iconBefore: home
+    - iconBefore: ''
     - events:
         - ordered:
             - event: click
