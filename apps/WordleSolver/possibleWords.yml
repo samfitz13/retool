@@ -1,0 +1,34 @@
+id: possibleWords
+type: widget
+subtype: TagsWidget
+resourceName: null
+template:
+  ordered:
+    - horizontalAlign: left
+    - hidden: >-
+        {{ badLettersInput.value.length == 0 && goodLettersInput.value.length ==
+        0 && knownLetterPosition1.value.length == 0 &&
+        knownLetterPosition2.value.length == 0 &&
+        knownLetterPosition3.value.length == 0 &&
+        knownLetterPosition4.value.length == 0 &&
+        knownLetterPosition5.value.length == 0 }}
+    - showInEditor: false
+    - colors: '[''red'', ''green'', ''blue'', ''orange'', ''yellow'', ''teal'',''violet'',''grey'']'
+    - tooltipText: ''
+    - value: '{{searcher.data}}'
+    - style:
+        ordered:
+          - borderRadius: ''
+    - allowWrap: true
+    - hashColors: false
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: possibleWordContainer
+    subcontainer: 6db98
+    row: 1.6653345369377348e-16
+    height: 0.8
+    width: 12
+createdAt: 2022-02-15T18:57:57.971Z

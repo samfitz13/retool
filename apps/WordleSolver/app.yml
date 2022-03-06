@@ -1,0 +1,8 @@
+version: 43.0.9
+pageUuid: a63cfb14-8e90-11ec-bcda-374424405d6b
+appTemplate:
+  customDocumentTitle: Wordle Solver
+  rootScreen: null
+  customDocumentTitleEnabled: true
+  version: 2.85.25
+  markdownLinkBehavior: auto

@@ -1,0 +1,120 @@
+id: mobileSearcher
+type: datasource
+subtype: JavascriptQuery
+resourceName: JavascriptQuery
+template:
+  ordered:
+    - queryRefreshTime: ''
+    - lastReceivedFromResourceAt: null
+    - queryDisabledMessage: Check Inputs, Query Disabled
+    - successMessage: ''
+    - queryDisabled: >-
+        {{ knownLetterPosition1.value.length > 1 ||
+        knownLetterPosition2.value.length > 1 ||
+        knownLetterPosition3.value.length > 1 ||
+        knownLetterPosition4.value.length > 1 ||
+        knownLetterPosition5.value.length > 1 || goodLettersInput.value.length >
+        5}}
+    - playgroundQuerySaveId: latest
+    - resourceNameOverride: ''
+    - runWhenModelUpdates: false
+    - showFailureToaster: true
+    - query: >-
+        let words = wordList.value
+
+        let goodLetters = mobileGoodLettersInput.value.toLowerCase().split('')
+
+        let badLetters = mobileBadLettersInput.value.toLowerCase().split('')
+
+        let placedLetters = [mobileKnownLetterPosition1.value.toLowerCase(),
+        mobileKnownLetterPosition2.value.toLowerCase(),
+        mobileKnownLetterPosition3.value.toLowerCase(),
+        mobileKnownLetterPosition4.value.toLowerCase(),
+        mobileKnownLetterPosition5.value.toLowerCase()]
+
+        let goodWords = []
+
+        let match = true
+
+
+        words.forEach(word => {
+          match = true
+          goodLetters.forEach(letter => {
+            if (word.indexOf(letter) == -1) {
+              match = false
+            }
+          })
+
+          badLetters.forEach(letter => {
+            if (word.includes(letter)) {
+              match = false
+            }
+          })
+          
+          if (placedLetters.join('').length > 0) {
+            for (let i = 0; i < placedLetters.length; i++) {
+              if (placedLetters[i] != word[i] && placedLetters[i] != "") {
+                match = false
+              }     
+            }
+          }
+          
+          
+          if (match) {
+            goodWords.push(word)
+          }
+        })
+
+
+        return goodWords
+    - playgroundQueryUuid: ''
+    - playgroundQueryId: null
+    - privateParams: []
+    - runWhenPageLoadsDelay: ''
+    - data: null
+    - importedQueryInputs:
+        ordered: []
+    - isImported: false
+    - showSuccessToaster: false
+    - cacheKeyTtl: ''
+    - metadata: null
+    - changesetObject: ''
+    - errorTransformer: >-
+        // The variable 'data' allows you to reference the request's data in the
+        transformer. 
+
+        // example: return data.find(element => element.isError)
+
+        return data.error
+    - confirmationMessage: null
+    - isFetching: false
+    - changeset: ''
+    - rawData: null
+    - queryTriggerDelay: '0'
+    - watchedParams: []
+    - enableErrorTransformer: false
+    - showLatestVersionUpdatedWarning: false
+    - timestamp: 0
+    - importedQueryDefaults:
+        ordered: []
+    - enableTransformer: false
+    - showUpdateSetValueDynamicallyToggle: true
+    - runWhenPageLoads: true
+    - transformer: >-
+        // type your code here
+
+        // example: return formatDataAsArray(data).filter(row => row.quantity >
+        20)
+
+        return data
+    - events: []
+    - queryTimeout: '10000'
+    - requireConfirmation: false
+    - queryFailureConditions: ''
+    - changesetIsObject: false
+    - enableCaching: false
+    - allowedGroups: []
+    - queryThrottleTime: '750'
+    - updateSetValueDynamically: false
+    - notificationDuration: ''
+createdAt: 2022-03-04T17:10:07.834Z
