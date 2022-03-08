@@ -1,0 +1,34 @@
+id: mobilePossibleWords
+type: widget
+subtype: TagsWidget
+resourceName: null
+template:
+  ordered:
+    - horizontalAlign: left
+    - hidden: >-
+        {{ mobileBadLettersInput.value.length == 0 &&
+        mobileGoodLettersInput.value.length == 0 &&
+        mobileKnownLetterPosition1.value.length == 0 &&
+        mobileKnownLetterPosition2.value.length == 0 &&
+        mobileKnownLetterPosition3.value.length == 0 &&
+        mobileKnownLetterPosition4.value.length == 0 &&
+        mobileKnownLetterPosition5.value.length == 0 }}
+    - showInEditor: false
+    - colors: '[''red'', ''green'', ''blue'', ''orange'', ''yellow'', ''teal'',''violet'',''grey'']'
+    - tooltipText: ''
+    - value: '{{mobileSearcher.data}}'
+    - style:
+        ordered:
+          - borderRadius: ''
+    - allowWrap: true
+    - hashColors: false
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+mobilePosition2:
+  position2:
+    container: mobilePossibleWordContainer
+    subcontainer: 6db98
+    height: 0.8
+    width: 12
+createdAt: 2022-03-04T17:03:18.281Z

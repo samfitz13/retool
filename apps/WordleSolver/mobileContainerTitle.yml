@@ -1,0 +1,26 @@
+id: mobileContainerTitle
+type: widget
+subtype: TextWidget2
+resourceName: null
+template:
+  ordered:
+    - heightType: auto
+    - horizontalAlign: left
+    - hidden: false
+    - imageWidth: fit
+    - showInEditor: false
+    - verticalAlign: center
+    - tooltipText: ''
+    - value: '### Wordle Solver'
+    - disableMarkdown: false
+    - overflowType: scroll
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+mobilePosition2:
+  position2:
+    container: mobileContainer
+    rowGroup: header
+    height: 1
+    width: 9
+createdAt: 2022-03-04T17:03:17.864Z

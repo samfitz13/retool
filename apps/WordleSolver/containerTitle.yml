@@ -1,0 +1,28 @@
+id: containerTitle
+type: widget
+subtype: TextWidget2
+resourceName: null
+template:
+  ordered:
+    - heightType: auto
+    - horizontalAlign: center
+    - hidden: false
+    - imageWidth: fit
+    - showInEditor: false
+    - verticalAlign: center
+    - tooltipText: ''
+    - value: '### Wordle Solver'
+    - disableMarkdown: false
+    - overflowType: scroll
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: container
+    rowGroup: header
+    row: -1.6653345369377348e-16
+    col: 2
+    height: 0.6
+    width: 8
+createdAt: 2022-02-15T20:57:12.519Z

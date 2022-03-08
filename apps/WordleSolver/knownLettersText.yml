@@ -1,0 +1,28 @@
+id: knownLettersText
+type: widget
+subtype: TextWidget2
+resourceName: null
+template:
+  ordered:
+    - heightType: auto
+    - horizontalAlign: center
+    - hidden: false
+    - imageWidth: fit
+    - showInEditor: false
+    - verticalAlign: center
+    - tooltipText: ''
+    - value: Known Letters
+    - disableMarkdown: false
+    - overflowType: scroll
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: container
+    subcontainer: 6db98
+    row: 2.400000000000001
+    col: 1
+    height: 0.6
+    width: 10
+createdAt: 2022-02-15T21:37:37.544Z
