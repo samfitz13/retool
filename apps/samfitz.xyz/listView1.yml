@@ -1,0 +1,22 @@
+id: listView1
+type: widget
+subtype: ListViewWidget
+template:
+  ordered:
+    - data: ''
+    - instances: '{{query5.data.length }}'
+    - itemHeight: '3'
+    - scroll: true
+    - showBorder: true
+    - showDropShadow: true
+    - dynamicHeightsEnabled: true
+    - formDataKey: '{{ self.id }}'
+style:
+  ordered: []
+position2:
+  position2:
+    container: tabbedContainer1
+    height: 20
+    width: 12
+    tabNum: 3
+createdAt: 2022-03-04T18:19:05.480Z
