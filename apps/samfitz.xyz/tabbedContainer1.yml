@@ -1,0 +1,26 @@
+id: tabbedContainer1
+type: widget
+subtype: TabbedContainerWidget
+template:
+  ordered:
+    - heightType: fixed
+    - spinWhenChildrenAreFetching: true
+    - unmountInactiveTabs: false
+    - style:
+        ordered:
+          - primary-surface: '#ededed'
+    - tabNames: '[1,2,3,4]'
+    - selectedTabIndex: 0
+    - selectedTab: '"0"'
+    - showTabBar: false
+    - disableAnimation: false
+    - overflowType: hidden
+    - disabled: ''
+style:
+  ordered: []
+position2:
+  position2:
+    col: 2
+    height: 21
+    width: 8
+createdAt: 2022-03-03T21:44:02.095Z

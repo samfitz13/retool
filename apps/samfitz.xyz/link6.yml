@@ -1,0 +1,45 @@
+id: link6
+type: widget
+subtype: LinkWidget
+template:
+  ordered:
+    - horizontalAlign: center
+    - clickable: false
+    - iconAfter: ''
+    - hidden: false
+    - text: Retool Wordle Solver
+    - showUnderline: hover
+    - showInEditor: false
+    - tooltipText: ''
+    - style:
+        ordered:
+          - text: '#262626'
+    - allowWrap: false
+    - iconBefore: ''
+    - events:
+        - ordered:
+            - event: click
+            - type: util
+            - method: openUrl
+            - pluginId: ''
+            - targetId: null
+            - params:
+                ordered:
+                  - url: >-
+                      https://tools.samfitz.me/embedded/public/b144d0ab-a707-42c3-baca-c7df9d3ec4ed
+            - waitType: debounce
+            - waitMs: '0'
+    - loading: false
+    - loaderPosition: auto
+    - disabled: false
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+mobilePosition2:
+  position2:
+    container: tabbedContainer2
+    row: 0.20000000000000018
+    height: 0.6
+    width: 6
+    tabNum: 1
+createdAt: 2022-03-04T17:40:17.878Z

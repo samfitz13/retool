@@ -1,0 +1,48 @@
+id: image5
+type: widget
+subtype: ImageWidget2
+template:
+  ordered:
+    - heightType: fixed
+    - horizontalAlign: center
+    - srcWidth: null
+    - clickable: false
+    - src: >-
+        https://github.com/samfitz13/Gap2Goal.app/raw/master/ProductScreenShot.png
+    - hidden: false
+    - srcHeight: null
+    - showInEditor: false
+    - tooltipText: ''
+    - fit: cover
+    - style:
+        ordered:
+          - borderRadius: '25'
+    - aspectRatio: null
+    - storageBlobId: ''
+    - altText: ''
+    - dbBlobId: 77d0e63d-1e55-4dc4-9406-f0c240dbfb4f
+    - events:
+        - ordered:
+            - event: click
+            - type: util
+            - method: openUrl
+            - pluginId: ''
+            - targetId: null
+            - params:
+                ordered:
+                  - url: https://gap2goal.app
+            - waitType: debounce
+            - waitMs: '0'
+    - srcType: src
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: tabbedContainer1
+    row: 8.881784197001252e-16
+    col: 6
+    height: 6.2
+    width: 6
+    tabNum: 1
+createdAt: 2022-03-04T17:41:31.817Z

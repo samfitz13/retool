@@ -1,0 +1,31 @@
+id: text7
+type: widget
+subtype: TextWidget2
+template:
+  ordered:
+    - heightType: auto
+    - horizontalAlign: left
+    - hidden: false
+    - imageWidth: fit
+    - showInEditor: false
+    - verticalAlign: center
+    - tooltipText: ''
+    - value: >-
+        #### Work
+
+        I currently work @ Retool on the Sales Engineering team, My day to day
+        consists of interacting with customers, arranging enterprise
+        conversations, demoing / debugging / building Retool applications, and
+        consuming a dangerous amount of spindrift.
+    - disableMarkdown: false
+    - overflowType: scroll
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+mobilePosition2:
+  position2:
+    container: tabbedContainer2
+    row: 1.1999999999999997
+    height: 0.6
+    width: 12
+createdAt: 2022-03-04T15:37:09.863Z
