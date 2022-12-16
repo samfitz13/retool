@@ -16,7 +16,7 @@ template:
     - resourceNameOverride: ''
     - runWhenModelUpdates: true
     - showFailureToaster: true
-    - query: select * from channels
+    - query: select * from channels where id = 1
     - playgroundQueryUuid: ''
     - playgroundQueryId: null
     - error: null
