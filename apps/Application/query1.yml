@@ -1,7 +1,8 @@
 id: query1
 type: datasource
 subtype: SqlQueryUnified
-resourceName: 70b11ee4-4806-4fef-a29f-45ba9bc3c444
+resourceName: e7878a6c-5be0-465b-ae9a-d94109bae9ff
+resourceDisplayName: Postgres
 template:
   ordered:
     - queryRefreshTime: ''
@@ -15,12 +16,13 @@ template:
     - resourceNameOverride: ''
     - runWhenModelUpdates: true
     - showFailureToaster: true
-    - query: ''
+    - query: select * from channels
     - playgroundQueryUuid: ''
     - playgroundQueryId: null
     - error: null
     - privateParams: []
     - runWhenPageLoadsDelay: ''
+    - warningCodes: []
     - data: null
     - recordId: ''
     - importedQueryInputs:

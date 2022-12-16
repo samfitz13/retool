@@ -25,7 +25,7 @@ template:
     - labelCaption: ''
     - min: null
     - labelWidth: '33'
-    - placeholder: Enter value
+    - placeholder: asdf
     - showStepper: true
     - label: Sales
     - _validate: false
