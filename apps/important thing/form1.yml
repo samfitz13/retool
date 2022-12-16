@@ -1,0 +1,36 @@
+id: form1
+type: widget
+subtype: FormWidget2
+template:
+  ordered:
+    - disableSubmit: false
+    - heightType: auto
+    - resetAfterSubmit: true
+    - submitting: false
+    - hidden: false
+    - data:
+        object: {}
+    - showHeader: true
+    - hoistFetching: true
+    - scroll: true
+    - initialData: '{{ table1.selectedRow.data }}'
+    - showInEditor: false
+    - tooltipText: ''
+    - invalid: false
+    - showFooter: true
+    - events: []
+    - loading: false
+    - overflowType: scroll
+    - disabled: false
+    - requireValidation: true
+    - maintainSpaceWhenHidden: false
+    - showBody: true
+style:
+  ordered: []
+position2:
+  position2:
+    row: 0.2
+    col: 8
+    height: 0.2
+    width: 4
+createdAt: 2022-12-16T18:36:13.092Z
