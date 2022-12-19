@@ -1,0 +1,18 @@
+id: testModule1
+type: widget
+subtype: GlobalWidget
+template:
+  ordered:
+    - showFetchingIndicator: boolean
+    - heightType: auto
+    - name: test-module
+    - pageUuid: ebf1e9aa-7fc9-11ed-800c-c36b10646765
+    - childNamespace: testModule1
+style:
+  ordered: []
+position2:
+  position2:
+    row: 0.2
+    height: 2.4
+    width: 12
+createdAt: 2022-12-19T18:23:17.267Z
