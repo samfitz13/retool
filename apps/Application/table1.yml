@@ -25,7 +25,11 @@ template:
         ordered: []
     - alwaysShowPaginator: false
     - columnColors:
-        ordered: []
+        ordered:
+          - id: ''
+          - inserted_at: ''
+          - slug: ''
+          - created_by: ''
     - columnFrozenAlignments:
         ordered: []
     - allowMultiRowSelect: false
@@ -145,7 +149,7 @@ style:
   ordered: []
 position2:
   position2:
-    row: 0.2
+    row: 2.6
     col: 1
     height: 8
     width: 8
