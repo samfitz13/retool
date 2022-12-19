@@ -1,4 +1,4 @@
-id: table1
+id: table2
 type: widget
 subtype: TableWidget
 template:
@@ -172,7 +172,8 @@ style:
 position2:
   position2:
     container: moduleContainer
-    row: 0.6000000000000001
+    row: 0.4
+    col: 6
     height: 8
     width: 6
-createdAt: 2022-12-19T18:21:18.376Z
+createdAt: 2022-12-19T18:25:39.951Z
